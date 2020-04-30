@@ -20,7 +20,7 @@ apt install gdm3 --no-install-recommends
 #apt install network-manager-openvpn-gnome
 
 # Install the build essentials
-# tasksel install laptop
+tasksel install laptop
 apt install curl build-essential git
 apt install sudo
 
@@ -31,14 +31,7 @@ apt install sudo
 apt install gnome-tweaks
 apt install gnome-shell-extensions
 
-mkdir /root/etc 
-git clone https://github.com/clemlal/matcha-clemlal-fork-gtk-theme.git /root/etc/gtktheme
-bash /root/etc/gtktheme/install.sh
-
-git clone https://github.com/clemlal/papirus-clemlal-fork-icon-theme.git /root/etc/icontheme
-bash /root/etc/icontheme/install.sh
-
-apt install breeze-cursor-theme
+apt install breeze-cursor-theme arc-theme papirus-icon-theme
 
 git clone https://github.com/clemlal/backgrounds.git /root/etc/backgrounds 
 mkdir /usr/share/backgrounds/custom
