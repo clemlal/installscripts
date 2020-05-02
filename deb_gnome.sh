@@ -31,7 +31,7 @@ apt install sudo
 apt install gnome-tweaks
 apt install gnome-shell-extensions
 
-apt install breeze-cursor-theme arc-theme papirus-icon-theme
+apt install breeze-cursor-theme arc-theme materia-gtk-theme papirus-icon-theme
 
 git clone https://github.com/clemlal/backgrounds.git /root/etc/backgrounds 
 mkdir /usr/share/backgrounds/custom
@@ -86,7 +86,11 @@ apt install eog
 
 apt install baobab
 
-apt install kdenlive
+apt install kdenlive kdenlive-data
+
+apt install ardour ardour-data ardour-video-timeline
+
+apt install calf-plugins
 
 #Import Gnome Preferences
 
