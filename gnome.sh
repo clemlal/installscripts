@@ -86,7 +86,7 @@ apt install eog
 
 apt install baobab
 
-apt install kdenlive kdenlive-data
+apt install kdenlive kdenlive-data kde-runtime
 
 apt install ardour ardour-data ardour-video-timeline
 
