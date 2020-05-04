@@ -11,11 +11,11 @@
 sudo apt update
 sudo apt upgrade
 
-sudo apt install xserver-xorg xserver-xorg-core xfonts-base xinit --no-install-recommends
+sudo apt install xserver-xorg xserver-xorg-core xfonts-base xinit 
 
-sudo apt install libgl1-mesa-dri x11-xserver-utils gnome-session gnome-shell gnome-terminal gnome-control-center nautilus gnome-icon-theme --no-install-recommends
+sudo apt install libgl1-mesa-dri x11-xserver-utils gnome-session gnome-shell gnome-terminal gnome-control-center nautilus gnome-icon-theme 
 
-sudo apt install gdm3 --no-install-recommends
+sudo apt install lightdm
 
 #apt install network-manager-openvpn-gnome
 
