@@ -54,3 +54,9 @@ sudo apt install kdenlive kdenlive-data kde-runtime kde-style-breeze kde-style-b
 sudo apt install ardour ardour-data ardour-video-timeline
 
 sudo apt install calf-plugins
+
+sudo apt install guitarix guitarix-lv2
+
+sudo apt install mixxx
+
+sudo apt install filezilla
