@@ -33,4 +33,8 @@ sudo apt install breeze-cursor-theme arc-theme materia-gtk-theme papirus-icon-th
 
 git clone https://github.com/clemlal/backgrounds.git 
 
+#sudo apt install firmware-iwlwifi
+
+sudo apt install network-manager-openvpn network-manager-openvpn-gnome
+
 
