@@ -6,7 +6,7 @@ sudo apt update
 sudo apt install ranger
 
 #Terminal emulator
-sudo apt install kitty terminator
+sudo apt install terminator
 
 #Minimalist image viewer
 sudo apt install sxiv
@@ -22,4 +22,7 @@ sudo apt install pulseaudio pulseaudio-utils alsa-utils
 
 #Pdf viewer
 sudo apt install zathura
+
+#process management
+sudo apt install htop
 
