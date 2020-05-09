@@ -51,6 +51,8 @@ sudo apt install baobab
 
 sudo apt install kdenlive kdenlive-data kde-runtime kde-style-breeze kde-style-breeze-qt4
 
+sudo apt install jackd jackd2 qjackctl pulseaudio-module-jack
+
 sudo apt install ardour ardour-data ardour-video-timeline
 
 sudo apt install calf-plugins
