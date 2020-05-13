@@ -18,7 +18,7 @@ to performances.
 * Make sure to add the ```contrib``` and ```non-free``` sources to
 ```/etc/apt/sources.list```.
 
-* For my Thinkpad R500, add the ```sudo apt install firmware-iwlwifii```
+* For my Thinkpad R500, add the ```firmware-iwlwifii```
 package.
 
 * For my GTX 1070, add the nvidia-driver package.
@@ -30,7 +30,7 @@ package.
 This scrips installs all the minimal, lightweight and keyboard centered
 applications that I use for productivity on a daily basis. This part is
 far from being complete and I am still trying to convert my heavy programs
-to lighter alternatives all the time. However, as for today, it install the
+to lighter alternatives all the time. However, as for today, it only installs the
 following programs :
 
 * Terminator : A terminal emulator and multiplexor. It fits perfectly in my
@@ -61,3 +61,24 @@ terminal based control over sound.
 
 Here are the GUI based full desktop applications that I use. Careful, some
 of them might be really resource hungry so feel free to skip their installation on your machine.
+
+* Browsers : I use Mozilla Firefox as my main browser. It is powerful, has
+great support and allows some strong privacy and security options.
+I strongly recommend to deactivate telemetry, use a pryvacy focussed search
+engine like DuckDuckGo, deactivate remembering passwords, delete cookies when the
+session is closed and never remember history. Furthermore I always use
+ublock, no script and https everywhere. Another really good browser that I use
+on a daily basis is Tor Browser. It allows you to send your browser data through the
+Tor network. It is based on firefox and hence I user the same plugins as with firefox.
+Note : Tor Browser gives you anonymity against network trafic analysing algorithms.
+It doesn't protect you from leaking your own identity and once a matching point
+is found it is easy to track you on Tor. Do not reveal you identity nor connect
+to your own accounts on Tor.
+
+### Personnal notes
+
+* In order to install Tor Browser, you must first enable backports on Debian 10.
+To do sa, add the following line to ```/etc/apt/sources.list``` :
+```deb http://deb.debian.org/debian buster-backports main contrib```
+and then install the Tor Browser package.
+```apt install torbrowser-launcher -t buster-backports```
