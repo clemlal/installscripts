@@ -82,3 +82,14 @@ To do sa, add the following line to ```/etc/apt/sources.list``` :
 ```deb http://deb.debian.org/debian buster-backports main contrib```
 and then install the Tor Browser package.
 ```apt install torbrowser-launcher -t buster-backports```
+
+* In order to change the lightdm theme, edit the ```/etc/lightdm/lightdm-gtk-greeter.conf```
+file. I usually set ```background=0``` for a black background.
+
+* To enable jackd real time priorities you must create a file
+```/etc/security/limits.d/audio.conf``` that will contain the lines
+```
+@audio   -  rtprio     95
+@audio   -  memlock    unlimited
+```
+And run the command ```sudo dpkg-reconfigure -p high jackd```.
