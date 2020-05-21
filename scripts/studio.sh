@@ -23,6 +23,8 @@ sudo apt install jackd jackd2 qjackctl pulseaudio-module-jack
 
 sudo apt install ardour ardour-data ardour-video-timeline
 
+sudo apt install lmms lmms-common
+
 sudo apt install calf-plugins
 
 sudo apt install guitarix guitarix-lv2
